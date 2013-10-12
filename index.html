@@ -1,0 +1,84 @@
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="carrusel.css">
+	<script type="text/javascript" src="carrusel.js"></script>
+	<script type="text/javascript">
+
+
+	</script>
+	<style type="text/css">
+		canvas{
+			border: 1px black solid;
+		}
+		header{
+		background:  #0B2DC9;
+		color: #FFF;
+		padding: 1px;
+		text-align: center;
+		
+		}
+		#contenedorprincipal{
+			margin: auto;
+		}
+		#dibujo{
+			width: 90px;
+			float: left;
+			margin: 1em 10em 10em 10em;
+		}
+		#parte_uno{
+			width: 90px;
+			margin: 15em;
+			float: right;
+		}
+		#imagenes{
+			background: #000;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			margin: 4em 0 0em 0;
+			height: 13em;
+			width: 100em;
+		}
+	</style>
+</head>
+<body>
+<header> <h1> CREDENCIAL DESIGNER </h1> </header>
+<div id="contenedorprincipal">
+	<div id="dibujo">	
+		<canvas id="lienzo" height="400" width="300">
+		</canvas>
+	</div>
+	<div id="parte_uno">
+		Elige un borde
+		<input type="color">
+	</div>
+
+</div>
+<div id="imagenes">
+		<div id="divCarousel">
+			<div id="divIzquierda"></div>
+			<div id="divCentro">
+				<ul>
+					<li><img src="1.jpg"></li>
+					<li><img src="2.jpg"></li>
+					<li><img src="3.jpg"></li>
+					<li><img src="4.jpg"></li>
+					<li><img src="5.jpg"></li>
+					<li><img src="6.jpg"></li>
+					<li><img src="7.jpg"></li>
+					<li><img src="8.jpg"></li>
+					<li><img src="9.jpg"></li>					
+				</ul>
+			</div>
+			<div id="divDerecha"></div>
+			<div class="clsSalto"></div>
+		</div>
+		
+
+</div>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+</body>
+</html>
